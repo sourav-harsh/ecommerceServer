@@ -31,12 +31,12 @@
       "minLength": 3
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Category": {
       "type": "enumeration",
@@ -49,10 +49,10 @@
       "default": "T-shirt",
       "required": true
     },
-    "size": {
+    "Size": {
       "type": "string"
     },
-    "colour": {
+    "Colour": {
       "type": "enumeration",
       "enum": [
         "red",
@@ -63,7 +63,7 @@
         "yellow"
       ]
     },
-    "price": {
+    "Price": {
       "type": "integer",
       "required": true
     },
